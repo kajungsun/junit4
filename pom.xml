@@ -271,6 +271,7 @@
                     <useSystemClassLoader>true</useSystemClassLoader>
                     <enableAssertions>false</enableAssertions>
                     <testFailureIgnore>true</testFailureIgnore>
+                    
                 </configuration>
                 <dependencies>
                     <dependency>
@@ -456,6 +457,11 @@
                     </reportSet>
                 </reportSets>
             </plugin>
+            <plugin>
+        		<groupId>org.apache.maven.plugins</groupId>
+        		<artifactId>maven-pmd-plugin</artifactId>
+        		<version>3.11.0</version>
+      		</plugin>
         </plugins>
     </reporting>
 
